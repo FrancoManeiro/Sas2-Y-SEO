@@ -1,0 +1,9 @@
+@mixin flexRowCenter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+//  clase agregada en los h2 del footer.
+.mixinFooter{
+    @include flexRowCenter;
+}

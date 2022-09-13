@@ -1,0 +1,3 @@
+Agregué las keywords y la description en cada uno de los html. Ambas las repetí en todas las páginas, ya que creo que todas las palabras y o descripciones se relacionan con el sitio web.
+El título sigue siendo el mismo en cada una de las páginas, ya que considero que tiene relación con el contenido y no estoy repitiendo el nombre en ninguna de las anteriores.
+Los encabezados, tengo diferentes pero un solo H1 en todos los html, ya que es de mayor valor para cada una de las páginas.

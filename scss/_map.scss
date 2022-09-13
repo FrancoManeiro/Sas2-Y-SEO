@@ -1,0 +1,29 @@
+$coloresPrincipales:(
+    colorPrimario: lightblue,
+    colorSecundario: blue,
+    colorBLack: black,
+    colorWhite: white
+);
+
+@each $clave, $valor in $coloresPrincipales{
+    .#{$clave}{
+        color: $valor;
+    }
+}
+
+$estilos:(
+    color: red,
+    centro: center,
+    tFuente: 35px,
+    paddingTop: 20px
+);
+// encabezado de cada página.
+div.encabezado{
+    color:map-get($coloresPrincipales,colorWhite);
+    text-align:map-get($estilos,centro);
+    padding-top:map-get($estilos,paddingTop);
+}
+// clase agregada en div de contacto, h3 de nosotros y en h4 de index.
+.textMap{
+    color:map-get($coloresPrincipales,colorWhite)
+}
